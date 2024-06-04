@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var numero1 = parseInt(window.prompt('Escolha um número aleatório:'))
+        var numero2 = parseInt(window.prompt('Escolha um segundo número aleatório:'))
+        //o parseint serve para transformar um texto em um número inteiro
+        //o window.prompt serve para aparecer uma mensagem para ele escrever
+        
+        var operacao = window.prompt('Coloque uma operação:')
+
+        if(operacao == "Adição" || operacao == "adição" || operacao == "Soma" || operacao == "soma" || operacao == "Mais" || operacao == "mais"){
+            alert(numero1 + numero2)
+        }  
+        else if(operacao == "Subtração" || operacao == "subtração" || operacao == "Menos" || operacao == "menos"){
+            alert(numero1 - numero2)
+        }
+        else if(operacao == "Multiplicação" || operacao == "multiplicação"){
+            alert(numero1 * numero2)
+        }
+        else if(operacao == "Divisão" || operacao == "divisão"){
+            alert(numero1 / numero2)
+        }
+        else{
+            alert("Não tenho essa operação")
+        }
+    </script>
+</body>
+</html>
