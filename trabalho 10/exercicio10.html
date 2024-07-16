@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bicicletas</title>
+    <link rel="stylesheet" href="CSS/robertinho.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Bicicletas</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#models">Modelos</a></li>
+                    <li><a href="#order">Encomende</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home">
+            <div class="container">
+                <h2>Bem-vindo ao Mundo das Bicicletas</h2>
+                <p>Explore a paixão por pedalar e descubra os melhores modelos de bicicletas para todos os estilos e idades.</p>
+                <p>Seja você um ciclista urbano, um aventureiro de trilhas ou um atleta de alta performance, temos a bicicleta ideal para você. Nossa missão é incentivar um estilo de vida saudável e sustentável, promovendo a mobilidade através das bicicletas.</p>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <h2>Sobre Nós</h2>
+                <p>Somos apaixonados por bicicletas e acreditamos que elas são mais do que um meio de transporte. São um estilo de vida!</p>
+                <p>Fundada em 2010, nossa loja é dedicada a fornecer as melhores bicicletas e acessórios para todos os tipos de ciclistas. Nossa equipe é formada por ciclistas experientes que estão sempre prontos para ajudar você a encontrar a bicicleta perfeita e a mantê-la em ótimo estado.</p>
+                <p>Além de vender bicicletas, oferecemos serviços de manutenção, reparos e customização para garantir que sua bicicleta esteja sempre em excelente condição. Participe de nossos eventos e passeios para conhecer outros ciclistas e explorar novas rotas.</p>
+            </div>
+        </section>
+
+        <section id="models">
+            <div class="container">
+                <h2>Modelos de Bicicletas</h2>
+                <div class="model">
+                    <h3>Mountain Bike</h3>
+                    <p>Perfeitas para trilhas e terrenos acidentados.</p>
+                </div>
+                <div class="model">
+                    <h3>Speed</h3>
+                    <p>Ideais para asfalto e alta velocidade.</p>
+                </div>
+                <div class="model">
+                    <h3>Urbanas</h3>
+                    <p>Excelentes para o dia a dia na cidade.</p>
+                </div>
+                <div class="model">
+                    <h3>Elétrica</h3>
+                    <p>Facilitam as subidas e longas distâncias com assistência elétrica.</p>
+                </div>
+                <div class="model">
+                    <h3>Infantil</h3>
+                    <p>Projetadas especialmente para as crianças, com segurança e diversão.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="order">
+            <div class="container">
+                <h2>Encomende sua Bicicleta</h2>
+                <form>
+                    <label for="model">Modelo:</label>
+                    <select id="model" name="model">
+                        <option value="mountain-bike">Mountain Bike</option>
+                        <option value="speed">Speed</option>
+                        <option value="urbanas">Urbanas</option>
+                        <option value="eletrica">Elétrica</option>
+                        <option value="infantil">Infantil</option>
+                    </select>
+
+                    <label for="electric">Elétrica:</label>
+                    <select id="electric" name="electric">
+                        <option value="sim">Sim</option>
+                        <option value="nao">Não</option>
+                    </select>
+
+                    <label for="wheel-size">Aro da Roda:</label>
+                    <select id="wheel-size" name="wheel-size">
+                        <option value="aro-26">26"</option>
+                        <option value="aro-27.5">27.5"</option>
+                        <option value="aro-29">29"</option>
+                    </select>
+
+                    <label for="material">Material:</label>
+                    <select id="material" name="material">
+                        <option value="aluminio">Alumínio</option>
+                        <option value="carbono">Carbono</option>
+                        <option value="aço">Aço</option>
+                    </select>
+
+                    <label for="color">Cor:</label>
+                    <input type="text" id="color" name="color" placeholder="Digite a cor desejada">
+
+                    <label for="notes">Observações:</label>
+                    <textarea id="notes" name="notes" placeholder="Escreva quaisquer observações adicionais"></textarea>
+
+                    <button type="submit">Enviar Encomenda</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2>Contato</h2>
+                <p>Entre em contato conosco pelo e-mail: <a href="mailto:contato@ThalysBikes.com">contato@ThalysBikes.com</a></p>
+                <p>Ou nos visite em nossa loja física:</p>
+                <p><strong>Endereço:</strong> Rua das Bicicletas, 123, Centro, São Paulo, SP</p>
+                <p><strong>Telefone:</strong> (11) 1234-5678</p>
+                <p>Estamos abertos de segunda a sexta, das 9h às 18h, e aos sábados, das 9h às 14h.</p>
+                <p>Siga-nos nas redes sociais para ficar por dentro das novidades e eventos:</p>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Twitter</a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 ThalysBikes. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
